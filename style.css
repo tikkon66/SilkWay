@@ -10,6 +10,8 @@ body {
     color: white;
 }
 
+
+
 .container {
     width: min(1100px, 90%);
     margin: 0 auto;
@@ -106,4 +108,80 @@ footer {
     padding: 12px ;
     background: #020617;
     color: #94a3b8;
+}.whatsapp-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background: #25D366;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    z-index: 1000;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+.whatsapp-modal {
+    position: fixed;
+
+    right: 20px;
+    bottom: 95px;
+
+    width: 280px;
+
+    background: white;
+    color: black;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+
+    z-index: 1000;
+
+    box-shadow: 0 0 25px rgba(0,0,0,.2);
+}
+
+.whatsapp-modal.active {
+    display: flex;
+}
+
+.whatsapp-modal h3 {
+    text-align: center;
+}
+
+.whatsapp-modal a {
+    text-decoration: none;
+    color: #25D366;
+    font-weight: bold;
+}
+
+.whatsapp-modal button {
+    margin-top: 10px;
+
+    border: none;
+    background: #ef4444;
+
+    color: white;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
 }
