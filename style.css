@@ -167,7 +167,7 @@ footer {
 
 .whatsapp-modal a {
     text-decoration: none;
-    color: #25D366;
+    color: #e6e6e6;
     font-weight: bold;
 }
 
@@ -175,7 +175,7 @@ footer {
     margin-top: 10px;
 
     border: none;
-    background: #ef4444;
+    background: #25D366;
 
     color: white;
 
@@ -184,4 +184,9 @@ footer {
     border-radius: 8px;
 
     cursor: pointer;
+}
+
+#closeWhatsapp {
+    
+    background: #ef4444;
 }
