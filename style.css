@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.hero {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgba(15, 23, 42, .9),
+            rgba(15, 23, 42, .9)),
+        url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto 15px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    max-width: 800px;
+    margin: 0 auto 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #22c55e;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+section {
+    padding: 30px 0;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.advantages li {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.contacts {
+    text-align: center;
+    background: #192235;
+}
+
+.phone {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #bdbdbd;
+    transition: all ;
+}
+
+.phone:hover {
+    color: #ffffff;
+}
+
+footer {
+    padding: 12px ;
+    background: #020617;
+    color: #94a3b8;
+}
