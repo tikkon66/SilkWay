@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tikkon66.github.io/SilkWay/sitemap.xml
